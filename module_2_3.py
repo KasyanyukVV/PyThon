@@ -10,4 +10,15 @@ while f < len(my_list):
         f += 1
         print(my_list[f])
         break
-print('Список положительных чисел закончился')
+
+
+
+
+
+
+
+
+
+
+
+
