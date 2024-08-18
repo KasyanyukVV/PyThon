@@ -5,5 +5,5 @@ print(type(immutable_va))
 
 mutable_list = ["ABC", "СССР", 1, "Ленин", 2, "Сталин"]
 print(mutable_list)
-mutable_list[0] = "Вожди"
+mutable_list[0] = "Вожди:"
 print(mutable_list,type(mutable_list))
