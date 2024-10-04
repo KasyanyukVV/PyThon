@@ -1,8 +1,8 @@
 class Animal:
     def __init__(self, name):
-        self.name = name
         self.alive = True       # (живой)
         self.fed = False        # (накормленный)
+        self.name = name
 
     def eat(self, food):
         if food.edible:
@@ -15,9 +15,8 @@ class Animal:
 
 class Plant:
     def __init__(self, name):
-        self.name = name
         self.edible = False     # (съедобность)
-
+        self.name = name
 
 # Классы наследники
 class Mammal(Animal):
