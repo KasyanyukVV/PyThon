@@ -1,4 +1,3 @@
-# Это класс WordsFinder
 class WordsFinder:
     # Метод для инициализации объекта
     def __init__(self, *file_txt):
